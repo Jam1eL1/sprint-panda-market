@@ -83,3 +83,38 @@ body {
     margin-right: clamp(20px, 200px, 200px);
   }
 }
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-top {
+  background: #CFE5FF;
+  height: 540px;
+}
+
+.section-middle {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-middle-first {
+  height: 720px;
+}
+
+.section-middle-second {
+  height: 720px;
+}
+
+.section-middle-third {
+  height: 720px;
+}
+
+.section-bottom {
+  height: 540px;
+}
+
+.footer {
+  height: 160px;
+}
