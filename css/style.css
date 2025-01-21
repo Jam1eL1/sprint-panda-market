@@ -57,9 +57,11 @@ body {
   display: flex;
   align-items: center; 
   flex-shrink: 0;
+  text-decoration: none;
 }
 
 .login-btn {
+  border-style: none;
   font-family: inherit;
   font-size: 1rem;
   font-weight: 600;
@@ -72,7 +74,7 @@ body {
   text-align: center;
 }
 
-@media (width <= 1920px) {
+@media (width < 1920px) {
   .logo-container {
     margin-left: clamp(20px, 200px, 200px);
   }
