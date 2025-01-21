@@ -97,14 +97,21 @@ h1 {
 
 .section-top {
   display: flex;
+  justify-content: center;
   background: #CFE5FF;
   height: 540px;
-
 }
+
+.section-top-container {
+  display: flex;
+  margin: 200px 405px 0px;
+}
+
 
 .section-top-left {
   display: flex;
   flex-direction: column;
+  margin: 40px 0px 40px;
 }
 
 .section-middle {
