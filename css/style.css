@@ -1,0 +1,17 @@
+.nav-bar {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  /* top: 0;
+  left: 0; */
+  z-index: 10;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.login-btn {
+  cursor: pointer;
+}
