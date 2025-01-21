@@ -1,15 +1,45 @@
+@font-face {
+  font-family: 'ROKAF Sans';
+  src: url('../fonts/ROKAF Sans Medium.ttf') format('truetype');
+}
+
+:root {
+  --font-primary: sans-serif;
+  --font-secondary: sans-serif; 
+  --font-header: 'ROKAF Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-primary);
+  margin: 0px;
+}
+
 .nav-bar {
   display: flex;
   position: fixed;
   justify-content: space-between;
   width: 100%;
-  /* top: 0;
-  left: 0; */
-  z-index: 10;
+  margin: 0px auto;
+  background-color: #fafafa;
+  top: 0px;
 }
 
 .logo-container {
   display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.brand-name {
+  color: #3692FF;
+  font-family: var(--font-header);
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .login-btn {
