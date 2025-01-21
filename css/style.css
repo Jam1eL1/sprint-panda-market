@@ -36,6 +36,7 @@ body {
   align-items: center;
   margin-left: 200px;
   flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -54,17 +55,29 @@ body {
 .login-link {
   margin-right: 200px;
   display: flex;
-  align-items: center; /* Ensures the button stays vertically aligned */
+  align-items: center; 
+  flex-shrink: 0;
 }
 
 .login-btn {
   font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
   width: 8rem;
   height: 3rem;
   border-radius: 8px;
   background-color: #3692FF;
   color: white;
   cursor: pointer;
-  font-size: 1rem;
   text-align: center;
+}
+
+@media (width <= 1920px) {
+  .logo-container {
+    margin-left: clamp(20px, 200px, 200px);
+  }
+
+  .login-link {
+    margin-right: clamp(20px, 200px, 200px);
+  }
 }
