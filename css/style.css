@@ -10,6 +10,7 @@
 }
 
 body {
+  box-sizing: border-box;
   font-family: var(--font-primary);
   margin: 0px;
 }
@@ -19,7 +20,8 @@ body {
   position: fixed;
   justify-content: space-between;
   width: 100%;
-  margin: 0px auto;
+  margin: 0px;
+  padding: 10px;
   background-color: #fafafa;
   top: 0px;
 }
@@ -43,5 +45,7 @@ body {
 }
 
 .login-btn {
+  background-color: #3692FF;
+  color: white;
   cursor: pointer;
 }
