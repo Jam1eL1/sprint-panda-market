@@ -3,14 +3,18 @@
   src: url('../fonts/ROKAF Sans Medium.ttf') format('truetype');
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
-  --font-primary: sans-serif;
-  --font-secondary: sans-serif; 
+  --font-primary: 'Pretendard', sans-serif;
   --font-header: 'ROKAF Sans', sans-serif;
 }
 
 body {
-  box-sizing: border-box;
   font-family: var(--font-primary);
   margin: 0px;
 }
@@ -54,11 +58,13 @@ body {
 }
 
 .login-btn {
+  font-family: inherit;
   width: 8rem;
   height: 3rem;
   border-radius: 8px;
   background-color: #3692FF;
   color: white;
   cursor: pointer;
+  font-size: 1rem;
   text-align: center;
 }
