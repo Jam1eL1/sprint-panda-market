@@ -19,6 +19,12 @@ body {
   margin: 0px;
 }
 
+h1 {
+  font-family: inherit;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+}
 .nav-bar {
   display: flex;
   position: fixed;
@@ -49,7 +55,7 @@ body {
   color: #3692FF;
   font-family: var(--font-header);
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.6rem;
 }
 
 .login-link {
@@ -90,8 +96,15 @@ body {
 }
 
 .section-top {
+  display: flex;
   background: #CFE5FF;
   height: 540px;
+
+}
+
+.section-top-left {
+  display: flex;
+  flex-direction: column;
 }
 
 .section-middle {
