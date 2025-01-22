@@ -7,6 +7,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Pretendard';
+  font-size: 16px;
+  font-weight: 700;
+  color: #374151;
 }
 
 :root {
@@ -22,18 +28,15 @@ body {
 }
 
 h1 {
-  font-family: inherit;
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 3.5rem;
-  color: #374151;
 }
 
 h2 {
-  font-family: inherit;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 2rem;
-  color: #374151;
 }
 
 .nav-bar {
@@ -81,7 +84,6 @@ h2 {
   display: flex;
   align-items: center; 
   flex-shrink: 0;
-  text-decoration: none;
 }
 
 .login-btn {
@@ -130,10 +132,6 @@ h2 {
   margin-bottom: 32px;
 }
 
-.cta-link {
-  text-decoration: none;
-}
-
 .cta-btn {
   width: 357px;
   height: 56px;
@@ -144,7 +142,7 @@ h2 {
   border-style: none;
   font-family: inherit;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 32px;
   cursor: pointer;
   padding: 12px 124px;
@@ -185,12 +183,9 @@ h2 {
 
 .text-container p {
   font-family: inherit;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 1.125rem;
   line-height: 26px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: var(--main-color);
   margin-bottom: 12px;
 }
@@ -274,10 +269,6 @@ h2 {
   color: #E5E7EB;
   text-align: center;
   font-weight: 400;
-}
-
-.footer-container-middle a {
-  text-decoration: none;
 }
 
 .footer-container-right {
