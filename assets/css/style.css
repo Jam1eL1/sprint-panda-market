@@ -219,6 +219,12 @@ h2 {
 
 .section-middle-item:nth-child(3) .text-container {
   width: 335px;
+  margin-right: 0.5px;
+}
+
+.section-middle-item:nth-child(3) .text-container h1 {
+  margin-right: 42px;
+  margin-bottom: 24px;
 }
 
 .section-bottom {
