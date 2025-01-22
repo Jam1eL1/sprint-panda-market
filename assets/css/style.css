@@ -206,9 +206,21 @@ h2 {
   flex-direction: row-reverse;
 }
 
+.section-middle-item:nth-child(2) .text-container {
+  margin: 103px 64px 103px 9.5px;
+  align-items: end;
+  width: 317px;
+}
+
 .section-middle-item:nth-child(2) .text-container h1,
 .section-middle-item:nth-child(2) .text-container h2 {
+  margin-right: 0px;
+  margin-left: 29px;
   text-align: right;
+}
+
+.section-middle-item:nth-child(3) .text-container {
+  width: 335px;
 }
 
 .section-bottom {
