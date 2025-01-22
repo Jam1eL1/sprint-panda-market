@@ -12,6 +12,7 @@
 :root {
   --font-primary: 'Pretendard', sans-serif;
   --font-header: 'ROKAF Sans', sans-serif;
+  --main-color: #3692FF;
 }
 
 body {
@@ -24,7 +25,16 @@ h1 {
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 3.5rem;
+  color: #374151;
 }
+
+h2 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #374151;
+}
+
 .nav-bar {
   display: flex;
   position: fixed;
@@ -52,7 +62,7 @@ h1 {
 }
 
 .brand-name {
-  color: #3692FF;
+  color: var(--main-color);
   font-family: var(--font-header);
   font-weight: 700;
   font-size: 1.6rem;
@@ -75,7 +85,7 @@ h1 {
   height: 3rem;
   padding: 12px 23px;
   border-radius: 8px;
-  background-color: #3692FF;
+  background-color: var(--main-color);
   color: #F3F4F6;
   cursor: pointer;
   text-align: center;
@@ -128,7 +138,7 @@ h1 {
   width: 357px;
   height: 56px;
   color: #F3F4F6;
-  background-color: #3692FF;
+  background-color: var(--main-color);
   border-radius: 40px;
   gap: 10px;
   border-style: none;
@@ -154,9 +164,51 @@ h1 {
 }
 
 .section-item-container {
+  display: flex;
   margin: 138px 466px;
   width: 988px;
   height: 444px;
+}
+
+.section-img {
+
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 103px 31px 103px 64px;
+  width: 274px;
+}
+
+.text-container p {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--main-color);
+  margin-bottom: 12px;
+}
+
+.text-container h1 {
+  margin-right: 52px;
+  margin-bottom: 24px;
+}
+
+/* .text-container:nth-child(2) {
+  margin: 103px 64px 103px 9.5px;
+} */
+
+.section-middle-item:nth-child(2) .section-item-container {
+  flex-direction: row-reverse;
+}
+
+.section-middle-item:nth-child(2) .text-container h1,
+.section-middle-item:nth-child(2) .text-container h2 {
+  text-align: right;
 }
 
 .section-bottom {
