@@ -44,8 +44,9 @@ h2 {
   height: 70px;
   margin: 0px;
   padding: 10px;
-  background-color: #fafafa;
+  background-color: #ffffff;
   top: 0px;
+  border-bottom: 1px solid #DFDFDF;
 }
 
 .logo-container {
@@ -90,16 +91,6 @@ h2 {
   color: #F3F4F6;
   cursor: pointer;
   text-align: center;
-}
-
-@media (width < 1920px) {
-  .logo-container {
-    margin-left: clamp(20px, 200px, 200px);
-  }
-
-  .login-link {
-    margin-right: clamp(20px, 200px, 200px);
-  }
 }
 
 .main-container {
