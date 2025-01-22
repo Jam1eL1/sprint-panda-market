@@ -145,16 +145,18 @@ h1 {
   flex-direction: column;
 }
 
-.section-middle-first {
+.section-middle-item {
   height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
 }
 
-.section-middle-second {
-  height: 720px;
-}
-
-.section-middle-third {
-  height: 720px;
+.section-item-container {
+  margin: 138px 466px;
+  width: 988px;
+  height: 444px;
 }
 
 .section-bottom {
