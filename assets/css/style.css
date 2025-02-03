@@ -273,25 +273,34 @@ h2 {
 /* for signup.html */
 
 .auth {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  width: 640px;
-  height: 842px;
-  gap: 40px;
-  top: 60px;
-  left: 640px; */
+  width: 40rem;
+  height: 52.625rem;
+  gap: 2.5rem;
+  margin: 14.4375rem 40rem 0 40rem;
+  align-items: center;
 }
 
 .auth__logo-title {
-
+  display: flex;
+  gap: 1.39rem;
+  align-items: center;
+  width: 24.75rem;
+	height: 8.25rem;
 }
 
 .auth__logo {
-
+  width: 6.46rem;
+  height: 6.49rem;
 }
 
-.auth__title {
-
+.auth__title-text{
+  color: var(--main-color);
+  font-family: var(--font-header);
+  font-weight: 700;
+  font-size: 4.146rem;
+  line-height: 5.5975rem;
 }
 
 .auth__body {
