@@ -352,7 +352,7 @@ h2 {
 }
 
 .auth__form-input:focus {
-  border: solid 
+  border: solid var(--primary-100);
 }
 
 .auth__form-input::placeholder {
@@ -370,6 +370,10 @@ h2 {
   border: none;
   display: flex;
   justify-content: space-between;
+}
+
+.auth__form-password-container:focus-within {
+  border: solid var(--primary-100);
 }
 
 .auth__form-password-input {
