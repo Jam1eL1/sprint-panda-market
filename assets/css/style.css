@@ -20,6 +20,7 @@
   --font-header: 'ROKAF Sans', sans-serif;
   --main-color: #3692FF;
   --main-bg-color: #CFE5FF;
+  --cool-grey-100: #F3F4F6;
 }
 
 body {
@@ -95,7 +96,7 @@ h2 {
   padding: 0.75rem 1.4375rem;
   border-radius: 0.5rem;
   background-color: var(--main-color);
-  color: #F3F4F6;
+  color: var(--cool-grey-100);
   cursor: pointer;
   text-align: center;
 }
@@ -133,7 +134,7 @@ h2 {
 .cta-btn {
   width: 22.3125rem;
   height: 3.5rem;
-  color: #F3F4F6;
+  color: var(--cool-grey-100);
   background-color: var(--main-color);
   border-radius: 2.5rem;
   gap: 0.625rem;
