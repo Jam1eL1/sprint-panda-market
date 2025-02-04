@@ -414,4 +414,59 @@ h2 {
   font-size: 1.25rem;
   font-weight: 600;
   text-align: center;
+  line-height: 1.5rem;
+}
+
+.auth__social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.4375rem;
+  border-radius: 0.5rem;
+  background-color: #E6F2FF;
+}
+
+.auth__social-text {
+  font-weight: 500;
+  line-height: 1.625rem;
+  text-align: left;
+  color: var(--gray-800);
+}
+
+.auth__social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.auth__social-logo {
+  width: 2.625rem;
+  height: 2.625rem;
+}
+
+.auth__member {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  gap: 0.25rem;
+}
+
+.auth__member-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: var(--gray-800);
+}
+
+.auth__member-link {
+  color: #3182f6;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 17.9px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
