@@ -18,7 +18,9 @@
 :root {
   --font-primary: 'Pretendard', sans-serif;
   --font-header: 'ROKAF Sans', sans-serif;
-  --main-color: #3692FF;
+  --primary-100: #3692FF;
+  --primary-200: #1967D6;
+  --primary-300: #1251AA;
   --main-bg-color: #CFE5FF;
   --gray-900: #111827;
   --gray-800: #1F2937;
@@ -82,7 +84,7 @@ h2 {
 }
 
 .brand-name {
-  color: var(--main-color);
+  color: var(--primary-100);
   font-family: var(--font-header);
   font-weight: 700;
   font-size: 1.6rem;
@@ -103,7 +105,7 @@ h2 {
   height: 3rem;
   padding: 0.75rem 1.4375rem;
   border-radius: 0.5rem;
-  background-color: var(--main-color);
+  background-color: var(--primary-100);
   color: var(--cool-grey-100);
   cursor: pointer;
   text-align: center;
@@ -143,7 +145,7 @@ h2 {
   width: 22.3125rem;
   height: 3.5rem;
   color: var(--cool-grey-100);
-  background-color: var(--main-color);
+  background-color: var(--primary-100);
   border-radius: 2.5rem;
   gap: 0.625rem;
   border-style: none;
@@ -188,7 +190,7 @@ h2 {
   font-size: 1.125rem;
   line-height: 1.625rem;
   text-align: left;
-  color: var(--main-color);
+  color: var(--primary-100);
   margin-bottom: 0.75rem;
 }
 
@@ -303,7 +305,7 @@ h2 {
 }
 
 .auth__title-text{
-  color: var(--main-color);
+  color: var(--primary-100);
   font-family: var(--font-header);
   font-weight: 700;
   font-size: 4.146rem;
@@ -347,6 +349,10 @@ h2 {
   border-radius: 0.75rem; /* 12px */
   padding: 1rem 1.5rem; /* 16px 24px */
   border: none;
+}
+
+.auth__form-input:focus {
+  border: solid 
 }
 
 .auth__form-input::placeholder {
