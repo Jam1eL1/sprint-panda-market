@@ -281,7 +281,7 @@ h2 {
   display: flex;
   gap: 0.75rem;
 }
-/* for signup.html */
+/* for signup.html and login.html*/
 
 .auth {
   display: flex;
@@ -342,8 +342,8 @@ h2 {
 }
 
 .auth__form-label {
-  font-size: 1.125rem; /* 18px */
-  line-height: 1.3425rem; /* 21.48px */
+  font-size: 1.125rem; 
+  line-height: 1.3425rem;
   text-align: left;
   color: var(--gray-800);
 }
@@ -351,11 +351,11 @@ h2 {
 .auth__form-input {
   background-color: var(--gray-100);
   font-weight: 400;
-  line-height: 1.625rem; /* 26px */
+  line-height: 1.625rem; 
   text-align: left;
-  height: 3.5rem; /* 56px */
-  border-radius: 0.75rem; /* 12px */
-  padding: 1rem 1.5rem; /* 16px 24px */
+  height: 3.5rem;
+  border-radius: 0.75rem; 
+  padding: 1rem 1.5rem;
   border: none;
 }
 
@@ -370,11 +370,11 @@ h2 {
 .auth__form-password-container {
   background-color: var(--gray-100);
   font-weight: 400;
-  line-height: 1.625rem; /* 26px */
+  line-height: 1.625rem; 
   text-align: left;
-  height: 3.5rem; /* 56px */
-  border-radius: 0.75rem; /* 12px */
-  padding: 1rem 1.5rem; /* 16px 24px */
+  height: 3.5rem; 
+  border-radius: 0.75rem; 
+  padding: 1rem 1.5rem;
   border: none;
   display: flex;
   justify-content: space-between;
@@ -387,7 +387,8 @@ h2 {
 .auth__form-password-input {
   border: none;
   background-color: inherit;
-  min-width: 14.375rem; /* 230px */
+  /* min-width: 14.375rem;  */
+  width: 100%;
 }
 
 .auth__form-password-input:focus {
