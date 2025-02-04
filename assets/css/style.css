@@ -452,18 +452,18 @@ h2 {
 }
 
 .auth__member-text {
-  font-size: 14px;
+  font-size: 0.875rem;    
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;     
   text-align: left;
   color: var(--gray-800);
 }
 
 .auth__member-link {
   color: #3182f6;
-  font-size: 15px;
+  font-size: 0.9375rem;  
   font-weight: 500;
-  line-height: 17.9px;
+  line-height: 1.119rem;   
   text-align: left;
   text-decoration-line: underline;
   text-decoration-style: solid;
