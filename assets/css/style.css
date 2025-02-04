@@ -355,12 +355,27 @@ h2 {
 
 .auth__form-password-container {
   background-color: var(--gray-100);
-  color: var(--gray-400);
   font-weight: 400;
   line-height: 26px;
   text-align: left;
   height: 56px;
   border-radius: 12px;
   padding: 16px 24px 16px 24px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.auth__form-password-input {
+  border: none;
+  background-color: inherit;
+  flex-grow: 1;
+}
+.auth__form-password-input::placeholder {
+  color: var(--gray-400);
+  font-weight: 400;
+}
+
+.auth__form-password-toggle {
   border: none;
 }
