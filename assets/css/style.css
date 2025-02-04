@@ -12,7 +12,7 @@
   font-family: 'Pretendard';
   font-size: 16px;
   font-weight: 700;
-  color: #374151;
+  color: var(--grey-700);
 }
 
 :root {
@@ -20,7 +20,15 @@
   --font-header: 'ROKAF Sans', sans-serif;
   --main-color: #3692FF;
   --main-bg-color: #CFE5FF;
-  --cool-grey-100: #F3F4F6;
+  --gray-900: #111827;
+  --gray-800: #1F2937;
+  --gray-700: #374151;
+  --gray-600: #4B5563;
+  --gray-500: #6B7280;
+  --gray-400: #9CA3AF;
+  --gray-200: #E5E7EB;
+  --gray-100: #F3F4F6;
+  --gray-50: #F9FAFB;
 }
 
 body {
@@ -321,4 +329,23 @@ h2 {
   flex-direction: column;
   gap: 1rem;
   width: 100%;
+}
+
+.auth__form-label {
+  font-size: 18px;
+  line-height: 21.48px;
+  text-align: left;
+  color: var(--gray-800);
+}
+
+.auth__form-input {
+  color: var(--gray-400);
+  background-color: var(--gray-100);
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  height: 56px;
+  border-radius: 12px;
+  padding: 16px 24px 16px 24px;
+  border: none;
 }
