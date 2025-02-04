@@ -339,8 +339,23 @@ h2 {
 }
 
 .auth__form-input {
-  color: var(--gray-400);
   background-color: var(--gray-100);
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  height: 56px;
+  border-radius: 12px;
+  padding: 16px 24px 16px 24px;
+  border: none;
+}
+
+.auth__form-input::placeholder {
+  color: var(--gray-400);
+}
+
+.auth__form-password-container {
+  background-color: var(--gray-100);
+  color: var(--gray-400);
   font-weight: 400;
   line-height: 26px;
   text-align: left;
