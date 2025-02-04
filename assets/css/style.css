@@ -382,6 +382,10 @@ h2 {
   min-width: 14.375rem; /* 230px */
 }
 
+.auth__form-password-input:focus {
+  outline: none;
+}
+
 .auth__form-password-input::placeholder {
   color: var(--gray-400);
   font-weight: 400;
